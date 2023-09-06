@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.top {
+  background-color: #11172b;
+  width: 100%;
+  padding: 12px 0;
+}
+
+.top_text {
+  width: 640px;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 300;
+  color : #ffffff;
+  font-family: 'Titillium Web';
+}
+
+.top_text span {
+  font-weight: 600;
+}
+
+.top_text img {
+  height: 24px;
+  padding-right: 2.5%;
+}
+
+.content {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 40px;
+}
+
+.content_box {
+  width : 640px;
+  margin: 0 auto;
+}
+
+.content_top {
+  width: 100%;
+  background-color: #ebeff8;
+  border-radius: 8px;
+  padding: 24px 32px;
+}
+
+.content_top_in_out {
+  color: #b3bdd5;
+  font-size: 16px;
+}
+
+.content_top_in_out img {
+  height: 12px;
+  margin-right: 2.5%;
+}
+
+.content_top_retion {
+  font-size: 32px;
+  font-family: 'Titillium Web';
+  color: #000000;
+  margin-top: 8px;
+  font-weight: 700;
+}
+
+.content_top_date {
+  background-color: #ffffff;
+  padding: 8px 24px;
+  font-size: 16px;
+  color: #000000;
+  border-radius: 4px;
+  margin-top: 24px;
+  width: 40%;
+  text-align: center;
+  font-weight: 700;
+}
+
+.content_top_alet {
+  margin-top: 16px;
+  color: #b3bdd5;
+  font-size: 12px;
+}
+
+hr {
+  width: 100%;
+  border: 1px dashed #b6bfd3;
+  margin: 20px 0;
+}
+
+.ticket {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 8px 24px 24px;
+  border-radius: 8px;
+}
+
+.ticket_num{
+  font-size: 12px;
+  font-weight: 700;
+  font-family: 'Titillium Web';
+  color: #16bf97;
+}
+
+.ticket hr {
+  color: #dbf1ec;
+  margin: 8px 0 26px;
+}
+
+.ticket_top_text {
+  font-size: 12px;
+  font-weight: 500;
+  color: #b3bdd5;
+  margin: 4px 0;
+}
+
+.ticket_time {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a345e;
+}
+
+.ticket_time img {
+  margin: 0 10px;
+  width: 18px;
+}
+
+.ticket_air_num {
+  font-size: 16px;
+  color: #0b1f66;
+}
+
+.ticket_link{
+  text-align: right;
+}
+
+.ticket_link a{
+  text-decoration: none;
+}
+
+.ticket_link #middle {
+  margin: 0 24px;
+}
+
+.ticket_sold_out {
+  color: #dce0e8;
+}
